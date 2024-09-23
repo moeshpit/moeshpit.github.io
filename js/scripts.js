@@ -2,6 +2,12 @@ document.addEventListener('contextmenu', function (event) {
   event.preventDefault();
 });
 
+document.addEventListener('mousedown', function(event) {
+    if (event.button === 1) { // 1 steht für die mittlere Maustaste
+        event.preventDefault();
+    }
+});
+
 document.querySelectorAll('p').forEach(function (paragraph) {
         paragraph.innerHTML = paragraph.innerHTML.replace(
           /\[(.*?)\]/g,
