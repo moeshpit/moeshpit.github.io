@@ -1,0 +1,87 @@
+body {
+    color: white;
+    font-family: 'Arial', monospace;
+    background-color: black;
+    margin-left: 1;
+    display: block;
+    font-size: inherit;
+    border-style: hidden;
+    user-select: none;
+}
+
+p {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+p:hover {
+    font-size: 12px;
+    color: #ffffff;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 1);
+
+}
+
+.social-icons {
+    display: flex;
+    gap: 5px;
+    margin-left: 0;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 
+    0 10px rgb(255, 255, 255);
+}
+
+li:hover, .toggle-button:hover {
+    font-weight: bold;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+}
+
+.hover-text:hover {
+    font-weight: bold;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+}
+
+.toggle-button {
+    cursor: pointer;
+    background-color: transparent;
+    font-family: 'Arial', monospace;
+    border: none;
+    color: white;
+    padding: 1px;
+    font-size: 12px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-family: 'Arial', monospace;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    display: none;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+}
+
+ul {
+    list-style-type: none;
+    font-size: 12px;
+    padding: 1px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 2s ease;
+}	
+
+li {
+    padding: 1px;
+}
