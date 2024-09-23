@@ -23,7 +23,7 @@ p {
     margin: 0;
     padding: 0;
     color: #ffffff;
-    transition: text-shadow 0.3s;
+    transition: text-shadow 0.5s;
 }
 
 p:hover {
@@ -32,39 +32,43 @@ p:hover {
 
 .highlight {
     color: rgb(255, 137, 228);
-    transition: text-shadow 0.3s ease;
+    transition: text-shadow 0.5s ease;
 }
 
 .highlight:hover {
     text-shadow: 0 0 12px rgb(255, 137, 228);
+    transition: text-shadow 0.5s;
 }
 
 .social-icons {
     display: flex;
     gap: 5px;
     margin-left: 0;
+    transition: text-shadow 0.5s;
 }
 
 .social-icons a {
     color: white;
     font-size: 20px;
+    transition: text-shadow 0.5s;
 }
 
 .social-icons a:hover {
     color: rgb(255, 255, 255);
     text-shadow: 0 0 5px rgb(255, 255, 255);
+    transition: text-shadow 0.5s;
 }
 
 li:hover, .toggle-button:hover {
     font-weight: bold;
     text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
-    transition: text-shadow 0.3s;
+    transition: text-shadow 0.5s;
 }
 
 .hover-text:hover {
     font-weight: bold;
     text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
-    transition: text-shadow 0.3s;
+    transition: text-shadow 0.5s;
 }
 
 .toggle-button {
