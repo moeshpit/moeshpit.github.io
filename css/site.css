@@ -36,7 +36,7 @@ p:hover {
 }
 
 .highlight:hover {
-    text-shadow: 0 0 12px rgb(255, 137, 228);
+    text-shadow: 0 0 5px rgb(255, 0, 195);
     transition: text-shadow 0.5s;
 }
 
@@ -97,9 +97,9 @@ ul {
     list-style-type: none;
     font-size: 12px;
     padding: 1px;
-    max-height: 0;
+    max-height: 0; /* Standardmäßig ausgeblendet */
     overflow: hidden;
-    transition: max-height 2s ease;
+    transition: max-height 0.6s ease;
 }
 
 li {
